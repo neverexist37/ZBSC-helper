@@ -1,0 +1,17 @@
+javascript:(
+    function(s){
+        document.getElementById('ContentPlaceHolder1_txt_creditcard1').value = '1234';
+        document.getElementById('ContentPlaceHolder1_txt_creditcard2').value = '1234';
+        document.getElementById('ContentPlaceHolder1_txt_creditcard3').value = '1234';
+        document.getElementById('ContentPlaceHolder1_txt_creditcard4').value = '1234';
+
+        document.getElementById('ContentPlaceHolder1_dd_month').value = '01';
+        document.getElementById('ContentPlaceHolder1_dd_year').value = '2020';
+
+        document.getElementById('ContentPlaceHolder1_txt_back3').value = '999';
+
+        document.getElementById('EinSent3').checked = true;
+        RadioChange(3);
+        document.getElementById('ContentPlaceHolder1_txt_PhoneEIN').value = '/ABCDEFG';
+    }
+)();
